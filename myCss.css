@@ -1,4 +1,4 @@
-th{
+body {
     background-color:#bddfff
 }
 h1{
@@ -7,7 +7,12 @@ h1{
 h2{
     color:#1E90FF
 }
-d{
-    color:blue
-    font-size:20pt
+th{
+    background-color:#0083FF
+}
+td{
+    background-color:#EEEEEE
+}
+tr{
+    color:#0000FF
 }
