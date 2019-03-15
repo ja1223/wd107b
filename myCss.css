@@ -16,3 +16,11 @@ td{
 tr{
     color:#0000FF
 }
+button {
+  background-color:#222222;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
