@@ -25,6 +25,9 @@
             color: #ffffff;
             padding: 15px;
         }
+        .col-6{
+            text-align: center;
+        }
         .menu ul {
             list-style-type: none;
             margin: 0;
@@ -48,13 +51,45 @@
             font-size: 14px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         }
-        .footer {
-            background-color: #0099cc;
-            color: #ffffff;
-            text-align: center;
-            font-size: 12px;
-            padding: 15px;
+        .sidebar {
+            position: fixed;
+            top: 120px;
+            left: 8px;
+            width: 10px;
+            height: 1000px;
+            background-color: rgb(0, 101, 160);
+            margin: 0px;
+            padding: 10px 5px;
+            white-space:nowrap;
         }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .sidebar li, .sidebar ul {
+            list-style-type: none;
+            margin: 5px 10px;
+            padding: 10px;
+        }
+
+        .sidebar {
+            transition: width 1s;
+        }
+
+        .sidebar a:hover {
+            color: yellow;
+        }
+
+        .sidebar:hover {
+            width: 170px; 
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
         /* For desktop: */
         .col-1 {width: 8.33%;}
         .col-2 {width: 16.66%;}
@@ -79,13 +114,13 @@
 <body>
 
         <div class="header">
-        <h1>雞排好吃
+        <h1>響應式網頁
                 <style>
                         .dropbtn {
                             background-color: rgb(0, 101, 160);
                             color: white;
                             padding: 16px;
-                            font-size: 16px;
+                            font-size: 20px;
                             border: none;
                             cursor: pointer;
                         }
@@ -98,13 +133,13 @@
                         .dropdown-content {
                             display: none;
                             position: absolute;
-                            background-color: #f9f9f9;
+                            background-color: rgb(0,101,160);
                             min-width: 160px;
                             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                         }
                         
                         .dropdown-content a {
-                            color: black;
+                            color: white;
                             padding: 12px 16px;
                             text-decoration: none;
                             display: block;
@@ -119,45 +154,41 @@
                         .dropdown:hover .dropbtn {
                             background-color: rgb(0, 101, 160);
                         }
+					
                         </style>
-                        </head>
                         <body>
                         <div class="dropdown" style="float:right;">
                           <button class="dropbtn">下拉選單</button>
                           <div class="dropdown-content"style="right:0">
-                            <a href="http://www.runoob.com">１</a>
-                            <a href="http://www.runoob.com">２</a>
-                            <a href="http://www.runoob.com">3</a>
+                            <a href="http://www.runoob.com">1  </a>
+                            <a href="http://www.runoob.com">2  </a>
+                            <a href="http://www.runoob.com">3  </a>
                           </div>
                         </div>
-
-        </h1>
+ 		</h1>
         </div>
         
+       
         <div class="row">
         
-        <div class="col-3 menu">
-                
-        <ul>
-        <li>欸嘿</li>
-        <li>嘿欸</li>
-        <li>啦啦啦</li>
-        <li>ㄏㄏㄏ</li>
-        </ul>
-        </div>
+       <div class="sidebar">
+	
+	<ul>
+	<li><a href="https://ja1223.github.io/wd107b/link/aboutMe.html">個人網頁</a></li>
+    <li><a href="https://ja1223.github.io/wd107b/link/quetion.html">表單</a></li>
+	<li><a href="https://ja1223.github.io/wd107b/bootstrap.html">bootstrap應用</a></li>
+	</ul>
+</div>
         
         <div class="col-6">
-                <h1>The City</h1>
-                <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+                <h1>The beatiful world</h1>
+                <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.0-9/36754185_1729023627133850_6365446535479558144_n.jpg?_nc_cat=110&_nc_ht=scontent.fkhh1-2.fna&oh=f6787a2060bc384c075e9f4f39e31a4b&oe=5D4F9531" width="400" height="300" />
                 
                 </div>
                 
         </div>
         
-        <div class="footer">
-        <p>Resize the browser window to see how the content respond to the resizing.</p>
-        </div>
+        
         
         </body>
 </html>
-
