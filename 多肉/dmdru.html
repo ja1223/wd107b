@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>呆萌多肉屋</title>
+</head>
+<style>
+        * {
+            box-sizing: border-box;
+        }
+        .row:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .header {
+            background-color: rgb(146, 214, 253);
+            color: #ffffff;
+            padding: 15px;
+        }
+        .col-6{
+            text-align: center;
+            margin-left: 250pt;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color :#33b5e5;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .menu li:hover {
+            background-color: #0099cc;
+        }
+        .aside {
+            background-color: #33b5e5;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .sidebar {
+            position: fixed;
+            top: 120px;
+            left: 8px;
+            width: 10px;
+            height: 1000px;
+            background-color: rgb(146, 214, 253);
+            margin: 0px;
+            padding: 10px 5px;
+            white-space:nowrap;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .sidebar li, .sidebar ul {
+            list-style-type: none;
+            margin: 5px 10px;
+            padding: 10px;
+        }
+
+        .sidebar {
+            transition: width 1s;
+        }
+
+        .sidebar a:hover {
+            color: yellow;
+        }
+
+        .sidebar:hover {
+            width: 200px; 
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        </style>
+<body>
+
+        <div class="header">
+        <h1>呆萌多肉屋 
+                <style>
+                        h1{
+                            text-align: center;
+                        }
+                        .dropbtn {
+                            background-color: rgb(146, 214, 253);
+                            color: white;
+                            padding: 16px;
+                            font-size: 20px;
+                            border: none;
+                            cursor: pointer;
+                        }
+                        
+                        .dropdown {
+                            position: relative;
+                            display: inline-block;
+                        }
+                        
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: rgb(146, 214, 253);
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                        }
+                        
+                        .dropdown-content a {
+                            color: white;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                        }
+                        
+                        .dropdown-content a:hover {background-color: #aaaaff}
+                        
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+                        
+                        .dropdown:hover .dropbtn {
+                            background-color: rgb(146, 214, 253);
+                        }
+					
+                        </style>
+                        <body>
+                        <div class="dropdown" style="float:right;">
+                          <button class="dropbtn">下拉選單</button>
+                          <div class="dropdown-content"style="right:0">
+                            <a href="http://www.runoob.com">1  </a>
+                            <a href="http://www.runoob.com">2  </a>
+                            <a href="http://www.runoob.com">3  </a>
+                          </div>
+                        </div>
+ 		</h1>
+        </div>
+        
+       
+        <div class="row">
+        
+       <div class="sidebar">
+	
+	<ul>
+	<li><a href="https://ja1223.github.io/wd107b/link/aboutMe.html">個人網頁</a></li>
+    <li><a href="https://ja1223.github.io/wd107b/link/quetion.html">表單</a></li>
+	<li><a href="https://ja1223.github.io/wd107b/bootstrap.html">bootstrap應用</a></li>
+	</ul>
+</div>
+        
+        <div class="col-6">
+                <h1>這裡是呆萌多肉屋，歡迎大家來逛逛喔~</h1>
+                <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.0-9/31934376_288741931665085_6561643093987164160_n.jpg?_nc_cat=111&_nc_ht=scontent.fkhh1-2.fna&oh=fa00bd28e7725b5879921d1989a7efdb&oe=5D3C72D3"width="500" height="450"  />
+                
+                </div>
+                
+        </div>
+        
+        
+        
+        </body>
+</html>

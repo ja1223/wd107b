@@ -1,0 +1,27 @@
+body {
+    background-color:#bddfff
+}
+h1{
+    color:#1E90FF;
+    text-align: center;
+}
+h2{
+    color:#1E90FF
+}
+th{
+    background-color:#0083FF
+}
+td{
+    background-color:#EEEEEE
+}
+tr{
+    color:#0000FF
+}
+button {
+  background-color:#222222;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
