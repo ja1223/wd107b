@@ -96,7 +96,25 @@ body {
       top:0pt;
       width: 100%;
     }
-    .sidebar{
+
+    .sidebar {
+    position: fixed;
+    top: 35pt;
+    left: 0px;
+    width: 350pt;
+    height: 10px;
+    background-color: rgb(118, 198, 255);
+    margin: 0px;
+    padding: 10px 5px;
+    white-space:nowrap;
+    transition: width 1s;
+  }
+
+    .sidebar:hover {
+    height: 200px; 
+  }
+
+    /*.sidebar{
       position: fixed;
       top: 35pt;
       height:150pt;
@@ -105,7 +123,7 @@ body {
     }
     .sidebar:hover {
       width: 350pt; 
-    }
+    }*/
 
     .content{
       margin-top: 200pt;
