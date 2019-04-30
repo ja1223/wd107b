@@ -33,7 +33,7 @@ body {
 }
 
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover{
   background-color: rgb(99, 189, 253);
 }
 
@@ -54,6 +54,9 @@ body {
 .sidebar a {
     color: white;
     text-decoration: none;
+
+    opacity:0;
+
 }
 
 .sidebar li, .sidebar ul {
@@ -64,10 +67,12 @@ body {
 
 .sidebar a:hover {
     color: yellow;
+    opacity:0.99;
 }
 
-.sidebar:hover {
+.sidebar:hover{
     width: 200px; 
+
 }
 
 
@@ -100,7 +105,7 @@ body {
     .sidebar {
     position: fixed;
     top: 35pt;
-    left: 0px;
+    /*left: 0px;*/
     width: 350pt;
     height: 10px;
     background-color: rgb(118, 198, 255);
@@ -111,6 +116,7 @@ body {
   }
 
     .sidebar:hover {
+    width:350pt;
     height: 200px; 
   }
 
